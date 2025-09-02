@@ -1,13 +1,17 @@
-x = int(input("Please enter an integer: "))
+# x = int(input("Please enter an integer: "))
 
-if x < 0:
-    x = 0
-    print("Negative changed to zero")
-elif x == 0:
-    print("Zero")
-elif x == 1:
-    print("One")
-elif x > 1:
-    print("Greater than one")
-else:
-    print("Alien number")    
+# if x < 0:
+#     x = 0
+#     print("Negative changed to zero")
+# elif x == 0:
+#     print("Zero")
+# elif x == 1:
+#     print("One")
+# elif x > 1:
+#     print("Greater than one")
+# else:
+#     print("Alien number")    
+
+db_status = "not_healthy"
+status = "healthy" if db_status == "healthy" else "degraded"
+print(f"status: {status}")
