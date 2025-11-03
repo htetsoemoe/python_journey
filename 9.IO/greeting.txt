@@ -1,0 +1,5 @@
+Hello from Python
+Practice makes perfect!
+Learning with doing a project.
+The Zen of Python
+Numpy, Pandas, Scikit Learn
